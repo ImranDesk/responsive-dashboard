@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assement Imran</title>
+
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- style css  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- navigation  -->
+    <div class="container">
+      <div id="n-left" class="navigation-left">
+        <div class="logo">
+          <h2>Ragnarok</h2>
+        </div>
+        <ul class="menu">
+          <li class="db">
+            <img src="images/Group 41.png" alt="" />
+            <span>Dashboard</span>
+          </li>
+          <li>
+            <img src="images/301.png" alt="" />
+            <span>Favourite</span>
+          </li>
+          <li>
+            <img src="images/Group.png" alt="" />
+            <span>Live Birds</span>
+          </li>
+          <li>
+            <img src="images/Group 1718.png" alt="" />
+            <span>Marketplace</span>
+          </li>
+          <li>
+            <img src="images/Group 1716.png" alt="" />
+            <span>Updates</span>
+          </li>
+          <li>
+            <img src="images/Group 1708.png" alt="" />
+            <span>Community</span>
+          </li>
+          <li>
+            <img src="images/Group 83.png" alt="" />
+            <span>Settings</span>
+          </li>
+        </ul>
+        <ul class="logout">
+          <li>
+            <img src="images/23.png" alt="" />
+            <span>Logout</span>
+          </li>
+        </ul>
+        <button onclick="xReset();">Back
+        </button>
+      </div>
+
+      <div class="main">
+        <div class="toggle">
+          <button onclick="toggleL();" id="btn-l" class="btn-menu">Menu</button>
+          <button onclick="toggleR();" id="btn-r" class="btn-messages">
+            Messages
+          </button>
+        </div>
+
+        <div class="navbar">
+          <div class="my-collection">
+            <h2>My Collection</h2>
+            <p>All your nfts are here</p>
+          </div>
+          <!-- ...... search .......  -->
+          <div class="search">
+            <input
+              placeholder="Search something"
+              type="text"
+              class="search-input"
+            />
+            <a href="#" class="search-btn">
+              <i class="fa-solid s-icon fa-magnifying-glass"></i>
+            </a>
+          </div>
+          <!-- ....... search ....... -->
+        </div>
+        <div class="cards">
+          <div class="cards-big">
+            <div class="card card-big">
+              <img src="images/Icon.png" alt="" />
+              <h2>20</h2>
+              <p>Solana</p>
+              <div class="card-bottom">
+                <div class="up">
+                  <img src="images/up.png" alt="" />
+                  <p>20.50%</p>
+                </div>
+                <div class="dps">
+                  <img class="z1" src="images/dp4.png" alt="" />
+                  <img class="z2" src="images/dp5.png" alt="" />
+                  <img class="z3" src="images/dp6.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="card card-big">
+              <img src="images/Icon-2.png" alt="" />
+              <h2>15</h2>
+              <p>Polygon</p>
+              <div class="card-bottom">
+                <div class="up">
+                  <img src="images/up.png" alt="" />
+                  <p>20.50%</p>
+                </div>
+                <div class="dps">
+                  <img class="z1" src="images/dp4.png" alt="" />
+                  <img class="z2" src="images/dp5.png" alt="" />
+                  <img class="z3" src="images/dp6.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="card card-big">
+              <img src="images/Icon-1.png" alt="" />
+              <h2>10</h2>
+              <p>Etherium</p>
+              <div class="card-bottom">
+                <div class="up">
+                  <img src="images/up.png" alt="" />
+                  <p>20.50%</p>
+                </div>
+                <div class="dps">
+                  <img class="z1" src="images/dp4.png" alt="" />
+                  <img class="z2" src="images/dp5.png" alt="" />
+                  <img class="z3" src="images/dp6.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="caragories">
+            <h4>Top Catagories</h4>
+            <p>See all</p>
+          </div>
+          <div class="cards-small">
+            <div class="card card-small">
+              <div class="icon">
+                <img src="images/9.png" alt="" />
+              </div>
+              <div class="text">
+                <h6>Best Selling</h6>
+                <p>10 artists</p>
+              </div>
+            </div>
+
+            <div class="card card-small">
+              <div class="icon">
+                <img src="images/9.png" alt="" />
+              </div>
+              <div class="text">
+                <h6>Best Selling</h6>
+                <p>10 artists</p>
+              </div>
+            </div>
+
+            <div class="card card-small">
+              <div class="icon">
+                <img src="images/9.png" alt="" />
+              </div>
+              <div class="text">
+                <h6>Best Selling</h6>
+                <p>10 artists</p>
+              </div>
+            </div>
+
+            <div class="card card-small">
+              <div class="icon">
+                <img src="images/9.png" alt="" />
+              </div>
+              <div class="text">
+                <h6>Best Selling</h6>
+                <p>10 artists</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nft-transaction">
+          <h2>NFTs Transaction</h2>
+        </div>
+        <div class="chart">
+          <canvas id="myChart"></canvas>
+        </div>
+      </div>
+
+      <div id="n-right" class="navigation-right">
+        <div class="top-section">
+          <div class="profile profile-main">
+            <img src="images/dp1.png" alt="" />
+            <div class="data">
+              <h6>Name</h6>
+              <p>NFTs Collector Pro</p>
+            </div>
+          </div>
+          <div class="notification">
+            <i class="far fa-bell"></i>
+          </div>
+        </div>
+        <div class="message">
+          <h4>Message</h4>
+        </div>
+        <div class="profile">
+          <img src="images/dp2.png" alt="" />
+          <div class="data">
+            <h6>Name</h6>
+            <p>NFTs Collector Pro</p>
+          </div>
+        </div>
+        <div class="profile">
+          <img src="images/dp3.png" alt="" />
+          <div class="data">
+            <h6>Name</h6>
+            <p>NFTs Collector Pro</p>
+          </div>
+        </div>
+        <hr />
+        <div class="profile">
+          <img src="images/dp4.png" alt="" />
+          <div class="data">
+            <h6>Name</h6>
+            <p>NFTs Collector Pro</p>
+          </div>
+        </div>
+        <div class="vam">
+          <button>View All Messages</button>
+        </div>
+        <div class="live-auction">
+          <h4>Live Auction</h4>
+        </div>
+        <div class="bottom-section">
+          <div class="ape-ex">
+            <p>Ape ex Alien NFT</p>
+          </div>
+          <div class="rare-ape">
+            <p>Rare Ape and Alien concept in single place.</p>
+          </div>
+          <div class="bidding">
+            <div class="dps"></div>
+            <progress id="file" value="32" max="100">32%</progress>
+
+            <div class="progress">
+              <div class="text">
+                <p>Bidding</p>
+                <p>$5000</p>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <button onclick="yReset();">Back
+        </button>
+      </div>
+    </div>
+
+    <!-- chart js  -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- app js  -->
+    <script src="app.js"></script>
+  </body>
+</html>
